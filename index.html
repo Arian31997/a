@@ -7,7 +7,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;900&family=Caveat:wght@600&family=Vazirmatn:wght@400;700&family=Lalezar&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/style.css">
-  <link rel="stylesheet" href="assets/css/matches.css">
+  <link rel="stylesheet" href="assets/css/servers.css">
   <link rel="stylesheet" href="assets/css/news.css">
   <link rel="stylesheet" href="assets/css/videos.css">
   <link rel="stylesheet" href="assets/css/timer.css">
@@ -40,7 +40,7 @@
       </div>
     </div>
     <div class="links">
-      <a href="#home" data-i18n="nav_home"></a><a href="#stream" data-i18n="nav_stream"></a><a href="#matches" data-i18n="nav_matches"></a><a href="videos.html" data-transition data-i18n="nav_videos"></a><a href="#register" data-i18n="nav_register"></a>
+      <a href="#home" data-i18n="nav_home"></a><a href="#stream" data-i18n="nav_stream"></a><a href="#servers" data-i18n="nav_servers"></a><a href="videos.html" data-transition data-i18n="nav_videos"></a><a href="#register" data-i18n="nav_register"></a>
       <a href="#support" data-i18n="nav_support"></a><a href="#donate" data-i18n="nav_donate"></a><a href="#about" data-i18n="nav_about"></a>
     </div>
     <div class="tools">
@@ -91,12 +91,46 @@
       </div>
     </section>
 
-        <section id="matches">
+        <section id="servers">
       <div class="mwrap"><div class="mcube rev"><span></span><span></span><span></span><span></span><span></span><span></span></div></div>
-      <h2 data-i18n="m_title"></h2>
-      <p class="sub" data-i18n="m_sub"></p>
-      <div class="matches" id="matchList"></div>
+      <h2 data-i18n="srv_title"></h2>
+      <p class="sub" data-i18n="srv_sub"></p>
+      <div class="servers">
+        <!-- آدرس سرورها را اینجا عوض کن -->
+        <div class="card server tilt coming">
+          <div class="srv-icon">🚔</div>
+          <h3 data-i18n="srv_vmp_t"></h3>
+          <p data-i18n="srv_vmp_d"></p>
+          <div class="coming-soon" dir="ltr">COMING SOON</div>
+          <button class="btn ghost small" data-open-vmp data-i18n="srv_connect"></button>
+        </div>
+        <div class="card server tilt">
+          <div class="srv-icon">🔫</div>
+          <h3 data-i18n="srv_cs_t"></h3>
+          <p data-i18n="srv_cs_d"></p>
+          <div class="ip-row"><code dir="ltr">connect 5.57.32.57:28740</code><button class="btn small" data-copy="connect 5.57.32.57:28740" data-i18n="srv_copy"></button></div>
+          <a class="btn ghost small" target="_blank" rel="noopener" href="https://maxgaming.ir/fa/explore-servers?q=himalia" data-i18n="srv_connect"></a>
+        </div>
+        <div class="card server tilt coming">
+          <div class="srv-icon">⛏️</div>
+          <h3 data-i18n="srv_mc_t"></h3>
+          <p data-i18n="srv_mc_d"></p>
+          <div class="coming-soon" dir="ltr">COMING SOON</div>
+        </div>
+      </div>
     </section>
+
+    <!-- صفحه دوم مخفی VMP: با اسکرول دیده نمی‌شود، فقط با کلیک باز می‌شود -->
+    <div class="srv-modal" id="vmpModal" hidden>
+      <div class="card srv-modal-box">
+        <button class="news-close" id="vmpClose" aria-label="Close">✕</button>
+        <div class="srv-icon">🚔</div>
+        <h3 data-i18n="srv_vmp_t"></h3>
+        <p data-i18n="srv_vmp_more"></p>
+        <!-- لینک سایت VMP را اینجا بذار -->
+        <a class="btn" target="_blank" rel="noopener" href="#" data-i18n="srv_connect"></a>
+      </div>
+    </div>
 
     <section id="register">
       <div class="mwrap"><div class="mcube"><span></span><span></span><span></span><span></span><span></span><span></span></div></div>
@@ -156,7 +190,7 @@
   <script src="assets/js/theme.js"></script>
   <script src="assets/js/background.js"></script>
   <script src="assets/js/main.js"></script>
-  <script src="assets/js/matches.js"></script>
+  <script src="assets/js/servers.js"></script>
   <script src="assets/js/news.js"></script>
   <script src="assets/js/yt.js"></script>
   <script src="assets/js/videos-core.js"></script>
