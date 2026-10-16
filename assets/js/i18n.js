@@ -1,11 +1,17 @@
 // ===== Translations (EN / FA) =====
 window.I18N = {
   en: {
-    nav_home:"Home", nav_stream:"Stream", nav_register:"Register", nav_support:"Support", nav_donate:"Donate", nav_about:"Team Himalaya", nav_admin:"🔐 Admin", nav_matches:"Matches", n_title:"News", n_none:"No news yet.",
+    nav_home:"Home", nav_stream:"Stream", nav_servers:"Servers", nav_register:"Register", nav_support:"Support", nav_donate:"Donate", nav_about:"Team Himalaya", nav_admin:"🔐 Admin", nav_matches:"Matches", n_title:"News", n_none:"No news yet.",
     nav_videos:"Videos", sg_title:"Suggested Videos", sg_all:"All videos",
     v_title:"Videos", v_sub:"Watch our videos right here on the site.", v_back:"← Home", v_long:"Videos", v_short:"Shorts",
     v_none:"Nothing here yet.", v_new:"NEW", v_yt:"Watch & comment on YouTube", v_big:"Enlarge", v_small:"Shrink",
     ch_title:"📢 Himalaya Channel", ch_none:"No posts yet.", tm_started:"Started!",
+    srv_title:"Our Servers", srv_sub:"Pick your world and join us. Click copy to copy the address.",
+    srv_vmp_t:"VMP Server", srv_vmp_d:"Roleplay world with Persian community and events.",
+    srv_cs_t:"Counter Server", srv_cs_d:"Counter-Strike 2 competitive server with fast queue.",
+    srv_mc_t:"Minecraft Server", srv_mc_d:"Survival and creative world for all versions.",
+    srv_copy:"Copy", srv_copied:"Copied!", srv_connect:"Visit Server Site",
+    srv_vmp_more:"Full VMP server info, rules and site link will be placed here.",
     m_title:"Match Schedule", m_sub:"Upcoming matches. Pick who you think will win!", m_none:"No matches have been scheduled yet.",
     m_upcoming:"Upcoming", m_live:"LIVE", m_finished:"Finished", m_starts:"Starts in",
     m_predict:"Who will win? Submit your prediction:", m_voted:"Your prediction is saved!", m_yours:"Your prediction", m_preds:"Community predictions",
@@ -26,11 +32,17 @@ window.I18N = {
     footer:"© 2026 Team Himalaya"
   },
   fa: {
-    nav_home:"خانه", nav_stream:"استریم", nav_register:"ثبت نام", nav_support:"پشتیبانی", nav_donate:"حمایت از ما", nav_about:"تیم هیمالیا", nav_admin:"🔐 پنل ادمین", nav_matches:"جدول مسابقات", n_title:"اخبار", n_none:"هنوز خبری منتشر نشده.",
+    nav_home:"خانه", nav_stream:"استریم", nav_servers:"سرورها", nav_register:"ثبت نام", nav_support:"پشتیبانی", nav_donate:"حمایت از ما", nav_about:"تیم هیمالیا", nav_admin:"🔐 پنل ادمین", nav_matches:"جدول مسابقات", n_title:"اخبار", n_none:"هنوز خبری منتشر نشده.",
     nav_videos:"ویدیوها", sg_title:"ویدیوهای پیشنهادی", sg_all:"همه ویدیوها",
     v_title:"ویدیوها", v_sub:"ویدیوهای ما را همین‌جا روی سایت ببین.", v_back:"← خانه", v_long:"ویدیوها", v_short:"شورت‌ها",
     v_none:"هنوز ویدیویی اینجا نیست.", v_new:"جدید", v_yt:"دیدن و کامنت در یوتیوب", v_big:"بزرگ‌نمایی", v_small:"کوچک‌نمایی",
     ch_title:"📢 کانال هیمالیا", ch_none:"هنوز پستی منتشر نشده.", tm_started:"شروع شد!",
+    srv_title:"سرورهای ما", srv_sub:"دنیای خودت را انتخاب کن و جوین شو. برای کپی آدرس روی دکمه کپی بزن.",
+    srv_vmp_t:"سرور وی‌ام‌پی", srv_vmp_d:"دنیای رول‌پلی با کامیونیتی فارسی و ایونت‌های هفتگی.",
+    srv_cs_t:"سرور کانتر", srv_cs_d:"سرور رقابتی کانتر استرایک ۲ با صف سریع.",
+    srv_mc_t:"سرور ماینکرفت", srv_mc_d:"دنیای بقا و خلاقیت برای همه نسخه‌ها.",
+    srv_copy:"کپی", srv_copied:"کپی شد!", srv_connect:"ورود به سایت سرور",
+    srv_vmp_more:"اطلاعات کامل سرور وی‌ام‌پی، قوانین و لینک سایت اینجا قرار می‌گیرد.",
     m_title:"جدول مسابقات", m_sub:"مسابقات پیش رو. حدس بزن چه کسی برنده می‌شود!", m_none:"هنوز مسابقه‌ای ثبت نشده است.",
     m_upcoming:"به‌زودی", m_live:"زنده", m_finished:"پایان یافته", m_starts:"شروع تا",
     m_predict:"به نظرت کی برنده می‌شود؟ حدست را ثبت کن:", m_voted:"حدس شما ثبت شد!", m_yours:"حدس شما", m_preds:"حدس بازدیدکننده‌ها",

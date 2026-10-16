@@ -1,0 +1,17 @@
+/* ===== Servers section ===== */
+.servers{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:20px}
+.server{text-align:center;display:grid;gap:12px;align-content:start;padding-top:30px}
+.server h3{font-size:1.4rem;color:var(--accent2)}
+.server p{color:var(--muted);line-height:2;font-size:.92rem;min-height:3.5em}
+.srv-icon{font-size:3rem;line-height:1;filter:drop-shadow(0 0 18px var(--border))}
+.ip-row{display:flex;gap:8px;align-items:center;justify-content:center;background:rgba(0,0,0,.35);border:1px solid var(--border);border-radius:12px;padding:8px 10px}
+.ip-row code{flex:1;font-size:.85rem;color:var(--accent2);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.coming-soon{font:900 1.1rem Orbitron,sans-serif;letter-spacing:3px;color:var(--accent);border:1px dashed var(--accent);border-radius:12px;padding:12px;box-shadow:var(--glow);animation:blink 1.6s infinite}
+@keyframes blink{50%{opacity:.55}}
+.server.coming{opacity:.85}
+/* صفحه دوم مخفی: فقط با کلیک باز می‌شود، با اسکرول دیده نمی‌شود */
+.srv-modal{position:fixed;inset:0;z-index:50;display:grid;place-items:center;padding:20px;background:rgba(0,0,0,.7);backdrop-filter:blur(8px)}
+.srv-modal[hidden]{display:none!important}
+.srv-modal-box{position:relative;max-width:520px;width:100%;text-align:center;display:grid;gap:14px}
+.srv-modal-box .news-close{position:absolute;top:12px;inset-inline-end:12px;cursor:pointer;border:1px solid var(--border);background:transparent;color:var(--text);border-radius:50%;width:32px;height:32px}
+.srv-modal-box p{color:var(--muted);line-height:2}
